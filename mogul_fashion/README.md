@@ -1,70 +1,98 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+![](./src/main/resources/squintreadmepic.jpg)
 
-In the project directory, you can run:
 
-### `npm start`
+#             **MogulFashionInc**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## This a project to create a showcase for the items available in the mogulfashion catalog
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### this project includes
+* React
+* Redux
+* Typescript
+* Sass
+* Mocha
+* Chai
+* Mysql
+* TypeOrm
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### Synopsis
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+this is the mvp of this project
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+MVP for "Mogul Fashion"
+### Project Goals and Objectives:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Create a showcase of the Mogul Fashion product line.
+Allow users to browse and search for products within the Mogul Fashion catalog.
+Enable users to view product details and images.
+Target Audience:
 
-### `npm run eject`
+Age range: 18 to 40.
+### Core Features (Beta Version):
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Homepage:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Display featured products or categories.
+Provide navigation to different product categories.
+Product Category Pages:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Show a list of products within each category.
+Allow users to filter and sort products based on various criteria.
+Product Detail Page:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Display detailed information about a selected product.
+Include product images, descriptions, and any available variations (e.g., sizes, colors).
+Content and Data:
 
-## Learn More
+Store product data in a MySQL database.
+Store product images on the server's file system or consider using cloud-based storage.
+User Experience (UX) and Design:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Implement the approved design from Figma, ensuring a user-friendly and visually appealing interface.
+Prioritize responsive design to accommodate various devices and screen sizes.
+### Technology Stack:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+React for the frontend.
+Redux for state management.
+TypeScript for type safety.
+Sass for styling.
+Mocha and Chai for frontend testing.
+MySQL as the database.
+TypeORM as the ORM for MySQL.
+Testing and Quality Assurance:
 
-### Code Splitting
+Write unit tests for React components using Mocha and Chai to ensure functionality and reliability.
+### Timeline:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+MVP development to be completed within approximately one week (timeline may vary based on the complexity of the project).
+Budget:
 
-### Analyzing the Bundle Size
+Confidential.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Monetization Strategy (if applicable):
 
-### Making a Progressive Web App
+The MVP will serve as a showcase project for Mogul Fashion, presenting product items in a central location.
+Legal and Compliance:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Confidential.
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+### Biggest challenges
+well so far this is the start, this section will be completed upon this projects completion.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+### Code Review
+coming soon!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### final thought
+coming soon!
+
+
+
+### for more projects by CyberStizz visit: [Charleslambjr.com](https://www.charleslambjr.com/)
