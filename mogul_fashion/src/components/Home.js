@@ -1,7 +1,23 @@
 import React from 'react';
 
 const Home = () => {
-    return "this is the home component"
+    return (
+        <div>
+        <header className="topSection">
+        <nav>
+
+        </nav>
+
+        <button>
+
+        </button>
+
+        <button></button>
+
+        </header>
+        
+        </div>
+      );
 }
 
 export default Home;
