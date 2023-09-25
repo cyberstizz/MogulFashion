@@ -1,3 +1,19 @@
 $mainBlue: #3FA396;
 $mainRed: #E63C23;
 $complimentaryGray: #D9D9D9;
+
+
+.topSection{
+    background-color: $mainBlue; 
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.hamburger {
+    width: 5vw;
+    height: 4vh;
+    background-color: black;
+}

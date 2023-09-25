@@ -1,10 +1,11 @@
 import React from 'react';
+import './Home.scss';
 
 const Home = () => {
     return (
         <div>
         <header className="topSection">
-        <nav>
+        <nav className="hamburger">
 
         </nav>
 
