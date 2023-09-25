@@ -6,3 +6,6 @@ const MenHeader = () => {
         <div className="MenHeaderText">Men</div>
     )
 }
+
+
+export default MenHeader;
