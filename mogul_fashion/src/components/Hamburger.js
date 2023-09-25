@@ -3,10 +3,12 @@ import "./Hamburger.scss";
 
 const Hamburger = () => {
     return (
-        <div classname="hamburgerParent">
-            <div classname="hamburgerRow"></div>
-            <div classname="hamburgerRow"></div>
-            <div classname="hamburgerRow"></div>
+        <div className="hamburgerParent">
+            <div className="hamburgerRow"></div>
+            <div className="hamburgerRow"></div>
+            <div className="hamburgerRow"></div>
         </div>
     )
 }
+
+export default Hamburger;

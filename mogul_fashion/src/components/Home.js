@@ -1,19 +1,19 @@
 import React from 'react';
 import './Home.scss';
+import Hamburger from './Hamburger.js';
 
 const Home = () => {
     return (
         <div>
         <header className="topSection">
-        <nav className="hamburger">
+        {/* <nav className="hamburger">
 
-        </nav>
+        </nav> */}
+        <Hamburger />
 
-        <button>
+        <button className='mainButton'>Apparel</button>
 
-        </button>
-
-        <button></button>
+        <button className='mainButton'>Other</button>
 
         </header>
         
