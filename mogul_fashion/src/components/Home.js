@@ -16,6 +16,13 @@ const Home = () => {
         <button className='mainButton'>Other</button>
 
         </header>
+
+
+        <header className='heroSection'>
+
+          <button className='heroButton'>Shop Now</button>
+
+        </header>
         
         </div>
       );
