@@ -11,6 +11,13 @@ import Footer from './components/Footer';
 
 
 function App() {
+
+  // Add this in your component file
+require('react-dom');
+window.React2 = require('react');
+console.log(window.React1 === window.React2);
+
+
   return (
     <Router>     
       <Routes>

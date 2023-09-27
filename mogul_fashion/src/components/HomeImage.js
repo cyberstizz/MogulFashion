@@ -6,7 +6,7 @@ const HomeImage = (props) => {
     const { title, imageUrl } = props;
     return(
         <main className='homeImageParent'>
-        <img src={imageUrl} width="110" height="auto"></img>
+        <img src={imageUrl} width="110" height="auto" alt="pic of item"></img>
         <section className='imageTitle'>{title}</section>
         </main>
     )
