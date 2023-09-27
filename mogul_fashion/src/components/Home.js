@@ -19,10 +19,11 @@ const Home = () => {
         </header>
 
 
-        <video width="100%" height="auto" controls autoPlay muted>
+        <video width="100%" height="auto" loop="true" autoPlay muted>
           <source src="/fashionvideofinished.mp4" type="video/mp4"/>
           Your browser does not support the video tag.
         </video>
+        <br />
 
         <SexHeader header="Men"/>
         <main>
@@ -31,6 +32,9 @@ const Home = () => {
           <HomeImage title="pants" imageUrl="randomSneaker.png"/>
           <HomeImage title="Hoodies" imageUrl="randomSneaker.png"/>
         </section>
+
+        <br />
+        <SexHeader header="Woman"/>
 
         <section className='HomeImages'>
           <HomeImage title="Dresses" imageUrl="randomSneaker.png"/>           

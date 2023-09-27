@@ -5,10 +5,10 @@ const HomeImage = (props) => {
     //destructure all props
     const { title, imageUrl } = props;
     return(
-        <React.Fragment>
-        <img src={imageUrl} width="115" height="70"></img>
-        <section>{title}</section>
-        </React.Fragment>
+        <main className='homeImageParent'>
+        <img src={imageUrl} width="110" height="auto"></img>
+        <section className='imageTitle'>{title}</section>
+        </main>
     )
 };
 
