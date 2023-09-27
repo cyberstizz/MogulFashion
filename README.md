@@ -1,6 +1,6 @@
 
 
-![](ModulWireframe.png)
+![](./mogul_fashion/public/ModulWireframe.png)
 
 
 #             **MogulFashionInc**
