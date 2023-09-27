@@ -1,6 +1,6 @@
 
 
-![](./src/main/resources/squintreadmepic.jpg)
+![](ModulWireframe.png)
 
 
 #             **MogulFashionInc**
