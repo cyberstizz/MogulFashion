@@ -17,3 +17,5 @@ const Pants = () => {
         </React.Fragment>
     )
 }
+
+export default Pants;
