@@ -1,9 +1,11 @@
 import React from "react";
 import './Sneakers.scss';
+import { Link } from 'react-router-dom';
+
 
 const Sneakers = () => {
     return(
-        <div>these are the sets</div>
+        <Link to="/products"><div>these are the sneakers and this links to the product page</div></Link>
     )
 }
 

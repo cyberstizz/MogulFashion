@@ -3,6 +3,8 @@ import './Home.scss';
 import Hamburger from './Hamburger.js';
 import SexHeader from './SexHeader';
 import HomeImage from './HomeImage';
+import { Link } from 'react-router-dom';
+
 
 const Home = () => {
     return (
@@ -28,18 +30,18 @@ const Home = () => {
         <SexHeader header="Men"/>
         <main>
         <section className='HomeImages'>
-          <HomeImage title="Sneakers" imageUrl="randomSneaker.png"/>           
-          <HomeImage title="pants" imageUrl="randomSneaker.png"/>
-          <HomeImage title="Hoodies" imageUrl="randomSneaker.png"/>
+         <Link to='/sneakers'><HomeImage title="sneakers" imageUrl="randomSneaker.png"/></Link>         
+         <Link to='/pants'><HomeImage title="pants" imageUrl="randomSneaker.png"/></Link> 
+         <Link to='/hoodies'><HomeImage title="hoodies" imageUrl="randomSneaker.png"/></Link> 
         </section>
 
         <br />
         <SexHeader header="Woman"/>
 
         <section className='HomeImages'>
-          <HomeImage title="Dresses" imageUrl="randomSneaker.png"/>           
-          <HomeImage title="Skirts" imageUrl="randomSneaker.png"/>
-          <HomeImage title="Sets" imageUrl="randomSneaker.png"/>
+        <Link to='/dresses'><HomeImage title="dresses" imageUrl="randomSneaker.png"/></Link>           
+        <Link to='/skirts'><HomeImage title="skirts" imageUrl="randomSneaker.png"/></Link>
+        <Link to='/sets'><HomeImage title="sets" imageUrl="randomSneaker.png"/></Link>
         </section>
 
         </main>

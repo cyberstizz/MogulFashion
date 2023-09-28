@@ -8,6 +8,7 @@ import Dresses from './components/Dresses';
 import Skirts from './components/Skirts';
 import Sets from './components/Sets';
 import Footer from './components/Footer';
+import ProductPage from './components/ProductPage';
 
 
 function App() {
@@ -28,6 +29,7 @@ console.log(window.React1 === window.React2);
         <Route path='/dresses' element={<Dresses />} />
         <Route path='/skirts' element={<Skirts />} />
         <Route path='/sets' element={<Sets />} />
+        <Route path='/products' element={<ProductPage />} />
       </Routes>
     <Footer />
     </Router>
