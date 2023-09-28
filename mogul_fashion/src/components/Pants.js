@@ -24,6 +24,9 @@ const Pants = () => {
                     <li className='submenuNavItem'>Hoodies</li>
                 </ul>
             </nav>
+            <main className='submenuBody'>
+
+            </main>
 
 
 
