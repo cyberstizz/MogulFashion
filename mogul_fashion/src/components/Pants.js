@@ -17,7 +17,7 @@ const Pants = () => {
                 <span className='pantsHeader'><SexHeader header="Pants" marginLeft="4vw" /></span>
             </header>
 
-            <nav>
+            <nav className='subMenuFullBlock'>
                 <ul className='submenuHeader'>
                     <li className='submenuNavItem'>Sneakers</li>
                     <li className='submenuNavItem'>Pants</li>
