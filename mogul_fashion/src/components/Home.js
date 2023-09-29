@@ -15,7 +15,7 @@ const Home = () => {
         </nav> */}
         <Hamburger />
 
-        <button className='mainButton'>Apparel</button>
+        <button className='mainButton' style={{backgroundColor:'red'}}>Apparel</button>
         <button className='mainButton'>Other</button>
 
         </header>
