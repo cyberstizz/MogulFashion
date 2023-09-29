@@ -31,11 +31,6 @@ const Pants = () => {
             <Link to="/products"><SubMenuComponent name='blue jeans' /></Link>
             </main>
            
-
-
-
-            <Link to="/products"><div>these are the pants, and this page links to the products page</div></Link>
-
         </React.Fragment>
     )
 }

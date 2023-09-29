@@ -10,14 +10,10 @@ const Home = () => {
     return (
         <div>
         <header className="topSection">
-        {/* <nav className="hamburger">
-
-        </nav> */}
-        <Hamburger />
-
-        <button className='mainButton' style={{backgroundColor:'red'}}>Apparel</button>
-        <button className='mainButton'>Other</button>
-
+            {/* <Hamburger /> */}
+            <img src='./MogulLogo.png' width="80" height="auto" alt='the mogo logo' className='homeLogo'></img>
+            <button className='mainButton' style={{backgroundColor:'red'}}>Apparel</button>
+            <button className='mainButton'>Other</button>
         </header>
 
 
@@ -27,22 +23,24 @@ const Home = () => {
         </video>
         <br />
 
+        {/* <img src='./MogulLogo.png' width="100" height="auto" alt='the mogo logo' className='homeLogo'></img> */}
+
         <SexHeader header="Men"/>
         <main>
-        <section className='HomeImages'>
-         <Link to='/sneakers'><HomeImage title="sneakers" imageUrl="randomSneaker.png"/></Link>         
-         <Link to='/pants'><HomeImage title="pants" imageUrl="randomSneaker.png"/></Link> 
-         <Link to='/hoodies'><HomeImage title="hoodies" imageUrl="randomSneaker.png"/></Link> 
-        </section>
+          <section className='HomeImages'>
+            <Link to='/sneakers'><HomeImage title="sneakers" imageUrl="randomSneaker.png"/></Link>         
+            <Link to='/pants'><HomeImage title="pants" imageUrl="randomSneaker.png"/></Link> 
+            <Link to='/hoodies'><HomeImage title="hoodies" imageUrl="randomSneaker.png"/></Link> 
+          </section>
 
-        <br />
-        <SexHeader header="Woman"/>
+          <br />
+          <SexHeader header="Woman"/>
 
-        <section className='HomeImages'>
-        <Link to='/dresses'><HomeImage title="dresses" imageUrl="randomSneaker.png"/></Link>           
-        <Link to='/skirts'><HomeImage title="skirts" imageUrl="randomSneaker.png"/></Link>
-        <Link to='/sets'><HomeImage title="sets" imageUrl="randomSneaker.png"/></Link>
-        </section>
+          <section className='HomeImages'>
+            <Link to='/dresses'><HomeImage title="dresses" imageUrl="randomSneaker.png"/></Link>           
+            <Link to='/skirts'><HomeImage title="skirts" imageUrl="randomSneaker.png"/></Link>
+            <Link to='/sets'><HomeImage title="sets" imageUrl="randomSneaker.png"/></Link>
+          </section>
 
         </main>
         

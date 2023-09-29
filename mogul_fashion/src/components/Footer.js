@@ -3,7 +3,9 @@ import './Footer.scss';
 
 const Footer = () => {
     return(
-        <footer className='theFooter'>this will be the footer</footer>
+        <footer className='theFooter'>
+            <img src='./MogulLogo.png' width="370" height="auto" alt='the mogo logo'></img>
+        </footer>
     )
 }
 
