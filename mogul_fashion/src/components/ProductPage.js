@@ -14,7 +14,7 @@ const ProductPage = () => {
                 <Hamburger />
                 <span className='pantsHeader'><SexHeader header="Pants" marginLeft="4vw" /></span>
             </header>
-            <section className="searchBar">Search</section>
+            <section className="searchBar"><i class="fa fa-search" aria-hidden="true" style={{fontSize: "30px", marginLeft: "2vw", marginTop: "1vh"}}></i> Search</section>
 
             <Link to="/"><div>these is the product page, and this page links back home</div></Link>
         </React.Fragment>
