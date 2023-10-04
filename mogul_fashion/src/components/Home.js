@@ -1,6 +1,6 @@
 import React from 'react';
 import './Home.scss';
-import Hamburger from './Hamburger.js';
+// import Hamburger from './Hamburger.js';
 import SexHeader from './SexHeader';
 import HomeImage from './HomeImage';
 import { Link } from 'react-router-dom';

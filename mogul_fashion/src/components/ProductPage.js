@@ -4,7 +4,6 @@ import './Skirts.scss';
 import { Link } from 'react-router-dom';
 import Hamburger from './Hamburger';
 import SexHeader from './SexHeader';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 
 const ProductPage = () => {
