@@ -25,7 +25,7 @@ const Home = () => {
         <SexHeader header="Men"/>
         <main>
           <section className='HomeImages'>
-            <Link to='/sneakers'><HomeImage title="sneakers" imageUrl="randomSneaker.png"/></Link>         
+            <Link to='/sneakers'><HomeImage title="sneakers" imageUrl="SouthOxford.png"/></Link>         
             <Link to='/pants'><HomeImage title="pants" imageUrl="randomSneaker.png"/></Link> 
             <Link to='/hoodies'><HomeImage title="hoodies" imageUrl="randomSneaker.png"/></Link> 
           </section>
