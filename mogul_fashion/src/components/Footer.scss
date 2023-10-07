@@ -2,6 +2,10 @@ $mainBlue: #3FA396;
 $mainRed: #E63C23;
 $complimentaryGray: #D9D9D9;
 
+*{
+    overflow-x: hidden;
+    font-family: 'Architects Daughter', cursive;
+}
 
 .theFooter{
     bottom: 0;
