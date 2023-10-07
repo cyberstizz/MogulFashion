@@ -1,6 +1,5 @@
 import React from 'react';
 import './Home.scss';
-// import Hamburger from './Hamburger.js';
 import SexHeader from './SexHeader';
 import HomeImage from './HomeImage';
 import { Link } from 'react-router-dom';
@@ -8,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
-        <div>
+        <React.Fragment>
         <header className="topSection">
             {/* <Hamburger /> */}
             <img src='./MogulLogo.png' width="80" height="auto" alt='the mogo logo' className='homeLogo'></img>
@@ -23,8 +22,6 @@ const Home = () => {
         </video>
         <br />
 
-        {/* <img src='./MogulLogo.png' width="100" height="auto" alt='the mogo logo' className='homeLogo'></img> */}
-
         <SexHeader header="Men"/>
         <main>
           <section className='HomeImages'>
@@ -33,8 +30,9 @@ const Home = () => {
             <Link to='/hoodies'><HomeImage title="hoodies" imageUrl="randomSneaker.png"/></Link> 
           </section>
 
-          <br />
-          <SexHeader header="Woman"/>
+         <br />
+
+        <SexHeader header="Woman"/>
 
           <section className='HomeImages'>
             <Link to='/dresses'><HomeImage title="dresses" imageUrl="randomSneaker.png"/></Link>           
@@ -44,7 +42,7 @@ const Home = () => {
 
         </main>
         
-        </div>
+        </React.Fragment>
       );
 }
 

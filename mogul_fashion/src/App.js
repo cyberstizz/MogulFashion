@@ -31,7 +31,6 @@ console.log(window.React1 === window.React2);
         <Route path='/sets' element={<Sets />} />
         <Route path='/products' element={<ProductPage />} />
       </Routes>
-    <Footer />
     </Router>
 );
 }
