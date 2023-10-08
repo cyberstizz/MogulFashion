@@ -1,3 +1,7 @@
+$mainBlue: #3FA396;
+$mainRed: #E63C23;
+$complimentaryGray: #D9D9D9;
+
 *{
     overflow-x: hidden;
     font-family: 'Architects Daughter', cursive;
@@ -6,7 +10,7 @@
 .homeImageParent{
     display: flex;
     flex-direction: column;
-    border: solid 2px green;
+    border: solid 2px $mainBlue;
     margin-left: 2vw;
     margin-top: 2vh;
     width: 30vw;

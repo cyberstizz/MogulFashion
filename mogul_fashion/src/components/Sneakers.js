@@ -1,6 +1,9 @@
 import React from "react";
 import './Sneakers.scss';
 import { Link } from 'react-router-dom';
+import Hamburger from './Hamburger';
+import SexHeader from "./SexHeader";
+import SubMenuComponent from "./SubMenuComponent";
 
 
 const Sneakers = () => {
