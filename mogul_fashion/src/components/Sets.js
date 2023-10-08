@@ -1,6 +1,9 @@
 import React from "react";
 import './Sets.scss';
 import { Link } from 'react-router-dom';
+import Hamburger from "./Hamburger";
+import SubMenuComponent from "./SubMenuComponent";
+import SexHeader from "./SexHeader";
 
 
 const Sets = () => {
