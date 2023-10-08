@@ -25,7 +25,7 @@ console.log(window.React1 === window.React2);
     <Router>   
       <header className="topSection">
             {/* <Hamburger /> */}
-            <Link to='/settingsMenu'><img src='./MogulLogo.png' width="80" height="auto" alt='the mogo logo' className='homeLogo'></img></Link>
+            <Link to='/settingsMenu' style={{ textDecoration: 'none', color: 'inherit' }}><img src='./MogulLogo.png' width="100" height="auto" alt='the mogo logo' className='homeLogo'></img></Link>
             <button className='mainButton' style={{backgroundColor:'red'}}>Apparel</button>
             <button className='mainButton'>Other</button>
        </header>
