@@ -20,7 +20,13 @@ console.log(window.React1 === window.React2);
 
 
   return (
-    <Router>     
+    <Router>   
+       <header className="topSection">
+            {/* <Hamburger /> */}
+            <img src='./MogulLogo.png' width="80" height="auto" alt='the mogo logo' className='homeLogo'></img>
+            <button className='mainButton' style={{backgroundColor:'red'}}>Apparel</button>
+            <button className='mainButton'>Other</button>
+       </header>  
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/sneakers' element={<Sneakers />} />

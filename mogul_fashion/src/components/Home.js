@@ -8,12 +8,12 @@ import { Link } from 'react-router-dom';
 const Home = () => {
     return (
         <React.Fragment>
-        <header className="topSection">
+        {/* <header className="topSection"> */}
             {/* <Hamburger /> */}
-            <img src='./MogulLogo.png' width="80" height="auto" alt='the mogo logo' className='homeLogo'></img>
+            {/* <img src='./MogulLogo.png' width="80" height="auto" alt='the mogo logo' className='homeLogo'></img>
             <button className='mainButton' style={{backgroundColor:'red'}}>Apparel</button>
             <button className='mainButton'>Other</button>
-        </header>
+        </header> */}
 
 
         <video width="100%" height="auto" loop="true" autoPlay muted>

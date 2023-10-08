@@ -1,7 +1,5 @@
 import React from 'react';
 import './Pants.scss';
-import SexHeader from './SexHeader';
-import Hamburger from './Hamburger';
 import { Link } from 'react-router-dom';
 import SubMenuComponent from './SubMenuComponent';
 
@@ -13,10 +11,7 @@ const Pants = () => {
     return(
         <React.Fragment>
 
-            <header className='ProductTop'>
-                <Hamburger />
-                <span className='pantsHeader'><SexHeader header="Pants" marginLeft="4vw" /></span>
-            </header>
+    
 
             <nav className='subMenuFullBlock'>
                 <ul className='submenuHeader'>
