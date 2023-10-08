@@ -6,7 +6,7 @@ import Home from "./Home";
 
 const SettingsPopup = () => {
     return(
-      <Link to={Home}> <main className="fullSettingsPopupBlock">
+      <Link to='/'> <main className="fullSettingsPopupBlock">
 
 
 
@@ -14,3 +14,5 @@ const SettingsPopup = () => {
         </main></Link> 
     )
 }
+
+export default SettingsPopup;

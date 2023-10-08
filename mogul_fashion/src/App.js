@@ -9,6 +9,8 @@ import Skirts from './components/Skirts';
 import Sets from './components/Sets';
 // import Footer from './components/Footer';
 import ProductPage from './components/ProductPage';
+import SettingsPopup from './components/SettingsPopup';
+import { Link } from 'react-router-dom';
 
 
 function App() {
@@ -21,12 +23,12 @@ console.log(window.React1 === window.React2);
 
   return (
     <Router>   
-       <header className="topSection">
+      <header className="topSection">
             {/* <Hamburger /> */}
-            <img src='./MogulLogo.png' width="80" height="auto" alt='the mogo logo' className='homeLogo'></img>
+            <Link to='/settingsMenu'><img src='./MogulLogo.png' width="80" height="auto" alt='the mogo logo' className='homeLogo'></img></Link>
             <button className='mainButton' style={{backgroundColor:'red'}}>Apparel</button>
             <button className='mainButton'>Other</button>
-       </header>  
+       </header>
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/sneakers' element={<Sneakers />} />
@@ -36,6 +38,7 @@ console.log(window.React1 === window.React2);
         <Route path='/skirts' element={<Skirts />} />
         <Route path='/sets' element={<Sets />} />
         <Route path='/products' element={<ProductPage />} />
+        <Route path='/settingsMenu' element={<SettingsPopup />} />
       </Routes>
     </Router>
 );
