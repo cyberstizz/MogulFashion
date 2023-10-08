@@ -35,9 +35,9 @@ const Home = () => {
         <SexHeader header="Woman"/>
 
           <section className='HomeImages'>
-            <Link to='/dresses'><HomeImage title="dresses" imageUrl="randomSneaker.png"/></Link>           
-            <Link to='/skirts'><HomeImage title="skirts" imageUrl="randomSneaker.png"/></Link>
-            <Link to='/sets'><HomeImage title="sets" imageUrl="randomSneaker.png"/></Link>
+            <Link to='/dresses'><HomeImage title="dresses" imageUrl="MogulDress.jpg"/></Link>           
+            <Link to='/skirts'><HomeImage title="skirts" imageUrl="MogulSkirt.jpg"/></Link>
+            <Link to='/sets'><HomeImage title="sets" imageUrl="MogulSet.png"/></Link>
           </section>
 
         </main>
