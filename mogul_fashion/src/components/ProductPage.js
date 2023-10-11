@@ -2,8 +2,6 @@ import React from "react";
 import './ProductPage.scss';
 import './Skirts.scss';
 import { Link } from 'react-router-dom';
-import Hamburger from './Hamburger';
-import SexHeader from './SexHeader';
 
 
 const ProductPage = () => {
