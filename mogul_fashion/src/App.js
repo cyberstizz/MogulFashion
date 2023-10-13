@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import Home from './components/Home';
 import { BrowserRouter as Router, Routes, Route, } from 'react-router-dom';
 import Sneakers from './components/Sneakers';
@@ -26,8 +26,8 @@ console.log(window.React1 === window.React2);
       <header className="topSection">
             {/* <Hamburger /> */}
             <Link to='/settingsMenu' style={{ textDecoration: 'none', color: 'inherit' }}><img src='./MogulLogo.png' width="100" height="auto" alt='the mogo logo' className='homeLogo'></img></Link>
-            <button className='mainButton' style={{backgroundColor:'red'}}>Apparel</button>
-            <button className='mainButton'>Other</button>
+            <button className='ApparelButton'>Apparel</button>
+            <button className='clothesButton'>Other</button>
        </header>
       <Routes>
         <Route path='/' element={<Home />} />
