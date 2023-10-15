@@ -1,3 +1,7 @@
+$mainBlue: #3FA396;
+$mainRed: #E63C23;
+$complimentaryGray: #D9D9D9;
+
 .App {
   text-align: center;
 }
@@ -43,6 +47,9 @@
 
 .ApparelButton{
   background: linear-gradient(to right, #E63C23, #e66552, #e69a8e);
+  border: solid 2px #E63C23;
+  color: #0d211e;
+  font-size: 22px;
   margin-left: 5vw;
   width: 30vw;
   height: 6vh;
@@ -58,7 +65,10 @@
 }
 
 .clothesButton{
-background: linear-gradient(to right, #3e3c3b, #8b8785, #f0e8e5);
+background: linear-gradient(to right, #8c8a8a, #bab5b2, #f0e8e5);
+border: solid 2px #8c8a8a;
+color: #0d211e;
+font-size: 22px;
 margin-left: 5vw;
 width: 30vw;
 height: 6vh;

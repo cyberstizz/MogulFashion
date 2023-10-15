@@ -16,7 +16,7 @@ const Home = () => {
         </header> */}
 
 
-        <video width="100%" height="auto" loop="true" autoPlay muted>
+        <video className="apparelVideo" width="100%" height="auto" loop="true" autoPlay muted>
           <source src="/fashionvideofinished.mp4" type="video/mp4"/>
           Your browser does not support the video tag.
         </video>

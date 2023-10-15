@@ -11,8 +11,6 @@ const Pants = () => {
     return(
         <React.Fragment>
 
-    
-
             <nav className='subMenuFullBlock'>
                 <ul className='submenuHeader'>
                     <li className='submenuNavItem'>Sneakers</li>
@@ -20,6 +18,7 @@ const Pants = () => {
                     <li className='submenuNavItem'>Hoodies</li>
                 </ul>
             </nav>
+            
             <main className='submenuBody'>
             <Link to="/products"><SubMenuComponent name='blue jeans'/></Link>
             <Link to="/products"><SubMenuComponent name='blue jeans' /></Link>

@@ -10,7 +10,7 @@ const Sets = () => {
     return(
         <React.Fragment>
 
-            <header className='ProductTop'>
+           <header className='ProductTop'>
                 <Hamburger />
                 <span className='pantsHeader'><SexHeader header="Pants" marginLeft="4vw" /></span>
             </header>
