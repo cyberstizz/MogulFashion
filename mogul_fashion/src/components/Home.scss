@@ -4,7 +4,6 @@ $complimentaryGray: #D9D9D9;
 
 *{
     overflow-x: hidden;
-    overflow-y: hidden;
     font-family: 'Architects Daughter', cursive;
 }
 
@@ -55,6 +54,7 @@ $complimentaryGray: #D9D9D9;
 .homeLogo{
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
+    overflow-y: hidden;
 }
 
 .apparelVideo{
