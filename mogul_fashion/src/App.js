@@ -1,4 +1,5 @@
 import './App.scss';
+import React from 'react';
 import Home from './components/Home';
 import { BrowserRouter as Router, Routes, Route, } from 'react-router-dom';
 import Sneakers from './components/Sneakers';
@@ -11,11 +12,12 @@ import Sets from './components/Sets';
 import ProductPage from './components/ProductPage';
 import SettingsPopup from './components/SettingsPopup';
 import { Link } from 'react-router-dom';
+import { useState } from 'react';
 
 
 function App() {
 
-
+const [storeMode, setStoremode] = useState('apparelMode');
 
 
   return (
@@ -23,8 +25,17 @@ function App() {
       <header className="topSection">
             {/* <Hamburger /> */}
             <Link to='/settingsMenu' style={{ textDecoration: 'none', color: 'inherit' }}><img src='./MogulLogo.png' width="100" height="auto" alt='the mogo logo' className='homeLogo'></img></Link>
-            <button className='ApparelButton'>Apparel</button>
-            <button className='clothesButton'>Other</button>
+            { storeMode === 'apparelMode' ? (
+            <React.Fragment>
+            <Link to='/' style={{ textDecoration: 'none', color: 'inherit' }}><button onClick={() => setStoremode('apparelMode')} className='ApparelButton'>Apparel</button></Link>
+            <Link to='/pants' style={{ textDecoration: 'none', color: 'inherit' }}><button onClick={() => setStoremode('otherMode')} className='clothesButton'>Other</button></Link> 
+            </React.Fragment>
+            ) : (
+            <React.Fragment>
+            <Link to='/' style={{ textDecoration: 'none', color: 'inherit' }}><button onClick={() => setStoremode('apparelMode')} className='otherApparelButton'>Apparel</button></Link>
+            <Link to='/pants' style={{ textDecoration: 'none', color: 'inherit' }}><button onClick={() => setStoremode('otherMode')} className='otherClothesButton'>Other</button></Link>
+            </React.Fragment>
+            )}
        </header>
       <Routes>
         <Route path='/' element={<Home />} />

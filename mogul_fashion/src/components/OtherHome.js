@@ -5,9 +5,16 @@ import HomeImage from './HomeImage';
 import { Link } from 'react-router-dom';
 
 
-const Home = () => {
+const OtherHome = () => {
     return (
         <React.Fragment>
+        {/* <header className="topSection"> */}
+            {/* <Hamburger /> */}
+            {/* <img src='./MogulLogo.png' width="80" height="auto" alt='the mogo logo' className='homeLogo'></img>
+            <button className='mainButton' style={{backgroundColor:'red'}}>Apparel</button>
+            <button className='mainButton'>Other</button>
+        </header> */}
+
 
         <video className="apparelVideo" width="100%" height="auto" loop="true" autoPlay muted>
           <source src="/fashionvideofinished.mp4" type="video/mp4"/>
@@ -39,4 +46,4 @@ const Home = () => {
       );
 }
 
-export default Home;
+export default OtherHome;

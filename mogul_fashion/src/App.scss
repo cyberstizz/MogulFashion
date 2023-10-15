@@ -82,3 +82,41 @@ transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Hover transitio
 }
 
 }
+
+.otherApparelButton{
+  background: linear-gradient(to right, #8c8a8a, #bab5b2, #f0e8e5);
+  border: solid 2px #8c8a8a;
+  color: #0d211e;
+  font-size: 22px;
+  margin-left: 5vw;
+  width: 30vw;
+  height: 6vh;
+  margin-top: 2vh;
+  border-radius: 25px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Hover transition */
+  
+  &:hover {
+    background-color: #ff704d; /* Darker color on hover */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+}
+
+.otherClothesButton{
+background: linear-gradient(to right, #E63C23, #e66552, #e69a8e);
+border: solid 2px #8c8a8a;
+color: #0d211e;
+font-size: 22px;
+margin-left: 5vw;
+width: 30vw;
+height: 6vh;
+margin-top: 2vh;
+border-radius: 25px;
+transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Hover transition */
+  
+&:hover {
+  background-color: #ff704d; /* Darker color on hover */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+}

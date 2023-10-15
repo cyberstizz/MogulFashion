@@ -1,20 +1,13 @@
 import React from "react";
 import './Hoodies.scss';
 import { Link } from 'react-router-dom';
-import Hamburger from "./Hamburger";
 import SubMenuComponent from "./SubMenuComponent";
-import SexHeader from "./SexHeader";
 
 
 
 const Hoodies = () => {
     return(
         <React.Fragment>
-
-            <header className='ProductTop'>
-                <Hamburger />
-                <span className='pantsHeader'><SexHeader header="Pants" marginLeft="4vw" /></span>
-            </header>
 
             <nav className='subMenuFullBlock'>
                 <ul className='submenuHeader'>
