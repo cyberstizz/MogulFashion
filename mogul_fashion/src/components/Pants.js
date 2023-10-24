@@ -13,9 +13,9 @@ const Pants = () => {
 
             <nav className='subMenuFullBlock'>
                 <ul className='submenuHeader'>
-                    <li className='submenuNavItem'>Sneakers</li>
-                    <li className='submenuNavItem'>Pants</li>
-                    <li className='submenuNavItem'>Hoodies</li>
+                <Link to="/sneakers"><li className='submenuNavItem'>Sneakers</li></Link>
+                <Link to="/pants"><li className='submenuNavItem'>Pants</li></Link>
+                <Link to="/hoodies"><li className='submenuNavItem'>Hoodies</li></Link>
                 </ul>
             </nav>
             
