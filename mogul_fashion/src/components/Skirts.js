@@ -12,9 +12,9 @@ const Skirts = () => {
 
             <nav className='subMenuFullBlock'>
                 <ul className='submenuHeader'>
-                    <li className='submenuNavItem'>Sneakers</li>
-                    <li className='submenuNavItem'>Pants</li>
-                    <li className='submenuNavItem'>Hoodies</li>
+                <Link to="/dresses"><li className='submenuNavItem'>Dresses</li></Link>
+                <Link to="/skirts"><li className='submenuNavItem'>Skirts</li></Link>
+                <Link to="/sets"><li className='submenuNavItem'>Sets</li></Link>
                 </ul>
             </nav>
             <main className='submenuBody'>

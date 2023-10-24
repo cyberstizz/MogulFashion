@@ -11,9 +11,9 @@ const Dresses = () => {
 
             <nav className='subMenuFullBlock'>
                 <ul className='submenuHeader'>
-                <Link to="/sneakers"><li className='submenuNavItem'>Sneakers</li></Link>
-                <Link to="/pants"><li className='submenuNavItem'>Pants</li></Link>
-                <Link to="/hoodies"><li className='submenuNavItem'>Hoodies</li></Link>
+                <Link to="/dresses"><li className='submenuNavItem'>Dresses</li></Link>
+                <Link to="/skirts"><li className='submenuNavItem'>Skirts</li></Link>
+                <Link to="/sets"><li className='submenuNavItem'>Sets</li></Link>
                 </ul>
             </nav>
             <main className='submenuBody'>
