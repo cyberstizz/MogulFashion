@@ -9,14 +9,13 @@ const SettingsPopup = () => {
         <header></header>
         <Link to='/' style={{ textDecoration: 'none', color: 'inherit', overflow: 'hidden' }}><img src='./MogulLogo.png' height="auto" alt='the mogo logo' className='thisHomeLogo'></img></Link>
         <ul classname>
-        <li className="comingSoon">Home</li>
-        <li className="comingSoon">Pants</li>
-        <li>sneakers</li>
-        <li>pants</li>
-        <li>hoodies</li>
-        <li>dresses</li>
-        <li>skirts</li>
-        <li>sets</li>
+        <Link to="/" style={{ textDecoration: 'none'}}><li className="settingsLink">Home</li></Link>
+        <Link to="/pants" style={{ textDecoration: 'none'}}><li className="settingsLink">Pants</li></Link>
+        <Link to="/sneakers" style={{ textDecoration: 'none'}}><li className="settingsLink">Sneakers</li></Link>
+        <Link to="/hoodies" style={{ textDecoration: 'none'}}><li className="settingsLink">hoodies</li></Link>
+        <Link to="/dresses" style={{ textDecoration: 'none'}}><li className="settingsLink">dresses</li></Link>
+        <Link to="/skirts" style={{ textDecoration: 'none'}}><li className="settingsLink">skirts</li></Link>
+        <Link to="/sets" style={{ textDecoration: 'none'}}><li className="settingsLink">sets</li></Link>
 
         </ul>
 
