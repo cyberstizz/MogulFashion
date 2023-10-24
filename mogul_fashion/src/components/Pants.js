@@ -12,7 +12,7 @@ const Pants = () => {
         <React.Fragment>
 
             <nav className='subMenuFullBlock'>
-                <ul className='submenuHeader'>
+                <ul className='submenuHeader' style={{ textDecoration: 'none'}}>
                 <Link to="/sneakers"><li className='submenuNavItem'>Sneakers</li></Link>
                 <Link to="/pants"><li className='submenuNavItem'>Pants</li></Link>
                 <Link to="/hoodies"><li className='submenuNavItem'>Hoodies</li></Link>
