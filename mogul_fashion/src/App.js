@@ -24,7 +24,7 @@ const [storeMode, setStoremode] = useState('apparelMode');
     <Router>   
       <header className="topSection">
             {/* <Hamburger /> */}
-            <Link to='/settingsMenu' style={{ textDecoration: 'none', color: 'inherit' }}><img src='./MogulLogo.png' width="100" height="auto" alt='the mogo logo' className='homeLogo'></img></Link>
+            <Link to='/settingsMenu' style={{ textDecoration: 'none', color: 'inherit', overflow: 'hidden' }}><img src='./MogulLogo.png' width="100" height="auto" alt='the mogo logo' className='homeLogo'></img></Link>
             { storeMode === 'apparelMode' ? (
             <React.Fragment>
             <Link to='/' style={{ textDecoration: 'none', color: 'inherit' }}><button onClick={() => setStoremode('apparelMode')} className='ApparelButton'>Apparel</button></Link>
