@@ -1,24 +1,29 @@
 import React from 'react';
 import './Footer.scss';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return(
         <footer className='theFooter'>
+
+<Link to='/' style={{ textDecoration: 'none', color: 'inherit', overflow: 'hidden' }}><img src='./MogulLogo.png' height="auto" alt='the mogo logo' className='footerHomeLogo'></img></Link>
+
+
             <nav>
                 <ul>
-                    <li className='footerList'>Home</li>
-                    <li className='footerList'>Apparel</li>
-                    <li className='footerList'>Other</li>
-                    <li className='footerList'>Shirts</li>
-                    <li className='footerList'>Sneakers</li>
-                    <li className='footerList'>Pants</li>
-                    <li className='footerList'>Hoodies</li>
-                    <li className='footerList'>Dresses</li>
-                    <li className='footerList'>Skirts</li>
-                    <li className='footerList'>Sets</li>
-                    <li className='footerList'>About</li>
-                    <li className='footerList'>Privacy Policy</li>
-                    <li className='footerList'>Control</li>
+                <Link to="/" style={{ textDecoration: 'none'}}><li className='footerList'>Home</li></Link>
+                <Link to="/apparel" style={{ textDecoration: 'none'}}><li className='footerList'>Apparel</li></Link>
+                <Link to="/other" style={{ textDecoration: 'none'}}><li className='footerList'>Other</li></Link>
+                <Link to="/shirts" style={{ textDecoration: 'none'}}><li className='footerList'>Shirts</li></Link>
+                <Link to="/sneakers" style={{ textDecoration: 'none'}}><li className='footerList'>Sneakers</li></Link>
+                <Link to="/pants" style={{ textDecoration: 'none'}}><li className='footerList'>Pants</li></Link>
+                <Link to="/hoodies" style={{ textDecoration: 'none'}}><li className='footerList'>Hoodies</li></Link>
+                <Link to="/dresses" style={{ textDecoration: 'none'}}><li className='footerList'>Dresses</li></Link>
+                <Link to="/skirts" style={{ textDecoration: 'none'}}><li className='footerList'>Skirts</li></Link>
+                <Link to="/sets" style={{ textDecoration: 'none'}}><li className='footerList'>Sets</li></Link>
+                <Link to="/about" style={{ textDecoration: 'none'}}><li className='footerList'>About</li></Link>
+                <Link to="/privacyPolicy" style={{ textDecoration: 'none'}}><li className='footerList'>Privacy Policy</li></Link>
+                <Link to="/control" style={{ textDecoration: 'none'}}><li className='footerList'>Control</li></Link>
                 </ul>
             </nav>
 
