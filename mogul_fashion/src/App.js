@@ -8,6 +8,7 @@ import Hoodies from './components/Hoodies';
 import Dresses from './components/Dresses';
 import Skirts from './components/Skirts';
 import Sets from './components/Sets';
+import Footer from './components/Footer'
 // import Footer from './components/Footer';
 import ProductPage from './components/ProductPage';
 import SettingsPopup from './components/SettingsPopup';
@@ -48,6 +49,7 @@ const [storeMode, setStoremode] = useState('apparelMode');
         <Route path='/products' element={<ProductPage />} />
         <Route path='/settingsMenu' element={<SettingsPopup />} />
       </Routes>
+      <Footer />
     </Router>
 );
 }
