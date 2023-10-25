@@ -14,6 +14,7 @@ import ProductPage from './components/ProductPage';
 import SettingsPopup from './components/SettingsPopup';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
+import ScrollToTop from './components/ScrollToTop';
 
 
 function App() {
@@ -23,6 +24,7 @@ const [storeMode, setStoremode] = useState('apparelMode');
 
   return (
     <Router>   
+      <ScrollToTop />
       <header className="topSection">
             {/* <Hamburger /> */}
             <Link to='/settingsMenu' style={{ textDecoration: 'none', color: 'inherit', overflow: 'hidden' }}><img src='./MogulLogo.png' width="100" height="auto" alt='the mogo logo' className='homeLogo'></img></Link>
