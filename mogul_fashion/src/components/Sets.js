@@ -18,9 +18,9 @@ const Sets = () => {
                 </ul>
             </nav>
             <main className='submenuBody'>
-            <Link to="/products"><SubMenuComponent name='blue jeans'/></Link>
-            <Link to="/products"><SubMenuComponent name='blue jeans' /></Link>
-            <Link to="/products"><SubMenuComponent name='blue jeans' /></Link>
+                <Link to="/products"><SubMenuComponent name='The Garter Set' path='./theGarterSet.png' /></Link>
+                <Link to="/products"><SubMenuComponent name='The Garter Set' path='./theGarterSet.png' /></Link>
+                <Link to="/products"><SubMenuComponent name='The Garter Set' path='./theGarterSet.png' /></Link>
             </main>
            
         </React.Fragment>
