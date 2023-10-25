@@ -6,19 +6,19 @@ const Footer = () => {
         <footer className='theFooter'>
             <nav>
                 <ul>
-                    <li>Home</li>
-                    <li>Apparel</li>
-                    <li>Other</li>
-                    <li>Shirts</li>
-                    <li>Sneakers</li>
-                    <li>Pants</li>
-                    <li>Hoodies</li>
-                    <li>Dresses</li>
-                    <li>Skirts</li>
-                    <li>Sets</li>
-                    <li>About</li>
-                    <li>Privacy Policy</li>
-                    <li>Control</li>
+                    <li className='footerList'>Home</li>
+                    <li className='footerList'>Apparel</li>
+                    <li className='footerList'>Other</li>
+                    <li className='footerList'>Shirts</li>
+                    <li className='footerList'>Sneakers</li>
+                    <li className='footerList'>Pants</li>
+                    <li className='footerList'>Hoodies</li>
+                    <li className='footerList'>Dresses</li>
+                    <li className='footerList'>Skirts</li>
+                    <li className='footerList'>Sets</li>
+                    <li className='footerList'>About</li>
+                    <li className='footerList'>Privacy Policy</li>
+                    <li className='footerList'>Control</li>
                 </ul>
             </nav>
 
