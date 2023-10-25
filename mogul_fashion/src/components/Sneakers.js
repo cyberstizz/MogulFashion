@@ -19,9 +19,9 @@ const Sneakers = () => {
                 </ul>
             </nav>
             <main className='submenuBody'>
-            <Link to="/products"><SubMenuComponent name='blue jeans'/></Link>
-            <Link to="/products"><SubMenuComponent name='blue jeans' /></Link>
-            <Link to="/products"><SubMenuComponent name='blue jeans' /></Link>
+            <Link to="/products"><SubMenuComponent name='spades' path='./spades.jpeg' /></Link>
+            <Link to="/products"><SubMenuComponent name='spades' path='./spades.jpeg' /></Link>
+            <Link to="/products"><SubMenuComponent name='spades' path='./spades.jpeg' /></Link>
             </main>
            
         </React.Fragment>
