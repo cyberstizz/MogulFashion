@@ -1,5 +1,4 @@
 import './App.scss';
-import React from 'react';
 
 const AllProducts = {
     men : {
@@ -12,35 +11,35 @@ const AllProducts = {
             }, 
             southOxford : {
                 title: 'South Oxford',
-                headline: '',
+                headline: 'A harmonious blend of simplicity and innovation',
                 imagePath: './SouthOxford.jpg',
-                description: ''
+                description: 'This shoe design features a muted color palette, evoking a sense of timeless elegance. The structured panels seamlessly combine with delicate stitching, showcasing a meticulous attention to detail. The result is a footwear masterpiece that is both understated and sophisticated, perfect for the discerning individual.'
             },
             maz : {
-                title: '',
-                headline: '',
-                imagePath: '',
-                description: ''
+                title: 'maz',
+                headline: 'the essence of futuristic fashion',
+                imagePath: './maz.jpeg',
+                description: 'Behold \'The Maz\' shoe, a creation by Mac Mogul, exuding modern elegance. With its cool blue undertones and striking contrast of linear designs, this shoe captures the essence of futuristic fashion. Enhanced by cushioned soles and refined laces, it represents a blend of comfort and avant-garde style. An embodiment of art and utility, it\'s a testament to visionary footwear design.'
             }
         }, 
         pants : {
             jamaaca : {
-                title: '',
-                headline: '',
-                imagePath: '',
-                description: ''
+                title: 'Jamaaca',
+                headline: 'A contemporary take on classic denim',
+                imagePath: './jamaacaJeans.jpeg',
+                description: 'These jeans feature a textured, stonewashed finish, beautifully contrasting with bold, earth-toned accents. The strategic placements of pockets and stitching not only enhance functionality but also add a touch of flair. These jeans represent the perfect fusion of style and comfort, tailor-made for the modern fashion aficionado.'
             },
             colorVienz : {
-                title: '',
-                headline: '',
-                imagePath: '',
-                description: ''
+                title: 'color Vienz',
+                headline: 'Avant-garde expression of denim fashion',
+                imagePath: './colorVienzJeans.png',
+                description: 'Introducing \'The Mogul "Color Vienz" Jeans\': a bold, avant-garde expression of denim fashion. This pair showcases an artistic splash of vibrant colors on a classic blue canvas. Distinct patches, reminiscent of modern art, combined with the neon trim, set these jeans apart as a statement piece. A nod to the audacious spirit of the modern-day mogul, these jeans are for those who wish to stand out and make a statement.'
             },
             mogulPants : {
-                title: '',
-                headline: '',
-                imagePath: '',
-                description: ''
+                title: 'Mogul Pants',
+                headline: 'A redefined denim experience!',
+                imagePath: './mogulPants.jpg',
+                description: 'Discover a redefined denim experience with this avant-garde pair. From the radiant red stitching that weaves a tale of boldness to the abstract paint smears, every detail resonates with an artisan touch. The unique patchwork adds a whimsical flair, while the denim retains a rich, authentic hue. Designed for the fearless and the fashion-forward, this pair of jeans is a testament to individuality and creative expression.'
             }
         }, 
         hoodies : {
