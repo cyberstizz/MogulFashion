@@ -44,53 +44,53 @@ const AllProducts = {
         }, 
         hoodies : {
             xHoodie : {
-                title: '',
-                headline: '',
-                imagePath: '',
-                description: ''
+                title: 'xhoodie',
+                headline: 'Stand out from the crowd',
+                imagePath: './xhoodie.jpeg',
+                description: 'Dive into the future of streetwear with the \'X Hoodie\'. Its high-definition rendering reveals a sophisticated blend of subtle pastels, bold branding, and intricate details. The sleek \'X\' emblem at the front sets a statement, while the meticulous accents on the sleeves showcase your refined taste. Coupled with a soft, luxurious fabric, this hoodie isn\'t just a piece of clothing; it\'s a declaration of style. Stand out, stay warm, and let the \'X\' mark your spot in the fashion world.'
             }
         }
     },
     woman : {
         dresses : {
             theHula : {
-                title: '',
+                title: 'The Hula',
                 headline: '',
-                imagePath: '',
+                imagePath: './theHula.jpeg',
                 description: ''
             },
             theMilitia : {
-                title: '',
+                title: 'The Militia',
                 headline: '',
-                imagePath: '',
+                imagePath: './theMilitia.jpeg',
                 description: ''
             },
             theTiff : {
-                title: '',
+                title: 'The Tiff',
                 headline: '',
-                imagePath: '',
+                imagePath: './theTiff.jpeg',
                 description: ''
             }
         },
         skirts : {
             theQueen : {
-                title: '',
+                title: 'The Queen',
                 headline: '',
-                imagePath: '',
+                imagePath: './theQueen.jpeg',
                 description: ''
             },
             theRoyalty : {
-                title: '',
+                title: 'The Royalty',
                 headline: '',
-                imagePath: '',
+                imagePath: './theRoyalty.jpeg',
                 description: ''
             }
         }, 
         sets : {
             theGarterSet : {
-                title: '',
+                title: 'The Garter Set',
                 headline: '',
-                imagePath: '',
+                imagePath: './theGarterSet.png',
                 description: '' 
             }
         }
