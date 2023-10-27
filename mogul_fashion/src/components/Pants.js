@@ -20,9 +20,9 @@ const Pants = () => {
             </nav>
             
             <main className='submenuBody'>
-            <Link to="/products"><SubMenuComponent name='Jamaaca' path='./jamaacaJeans.jpeg' /></Link>
-            <Link to="/products"><SubMenuComponent name='ColorVienz' path='./colorVienzJeans.png' /></Link>
-            <Link to="/products"><SubMenuComponent name='MogulPants' path='./mogulPants.jpg' /></Link>
+            <Link to="/products/jamaaca"><SubMenuComponent name='Jamaaca' path='./jamaacaJeans.jpeg' /></Link>
+            <Link to="/products/colorVienz"><SubMenuComponent name='ColorVienz' path='./colorVienzJeans.png' /></Link>
+            <Link to="/products/mogulPants"><SubMenuComponent name='MogulPants' path='./mogulPants.jpg' /></Link>
             </main>
            
         </React.Fragment>

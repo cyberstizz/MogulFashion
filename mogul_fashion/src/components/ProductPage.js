@@ -1,28 +1,44 @@
 import React from "react";
 import './ProductPage.scss';
 import './Skirts.scss';
-import { Link } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
+import AllProducts from "./AllProducts";
 
 
-const ProductPage = (props) => {
+const ProductPage = () => {
+    const navigate = useNavigate();
+
+    const { productId } = useParams();
+
+    const handleBackClick = () => {
+        navigate(-1);
+    }
+
+    
+    const theItem = AllProducts[productId]
+
+    const {title, headline, imagePath, description} = theItem;
+
+    console.log(title)
+
     return(
         <React.Fragment>
-            <i class="fa fa-arrow-left" aria-hidden="true"></i>
+            <i onClick={handleBackClick} style={{cursor: 'pointer'}} className="fa fa-arrow-left custom-arrow" aria-hidden="true"></i>
             <section className="underSearchBar"></section>
             <main className="entireProductCard">
             <div className="headerWrapper">
-                <header className="productFont">Spades</header>
+                <header className="productFont">{title}</header>
                 <div className="headerFooter"></div>
             </div>
-            <section className="headlineText">Combining athleticism with style</section>
+            <section className="headlineText">{headline}</section>
             <div className="headerWrapper">
-                <img className="productImage" src="./spades.jpeg" />
+                <img className="productImage" src={imagePath} />
                 <div className="headerFooterImage"></div>
             </div>
 
             <section className="headlineText">Product Details</section>
 
-            <section className="productDescription">Introducing the 'Spades Kick' — a contemporary sneaker artfully designed for the modern enthusiast. Its distinct spade patterns, intricately woven into the shoe's fabric, are a nod to classic card designs. The shoe's sleek curves, paired with its bold lace and cushioned sole, meld both comfort and style, making it a must-have for any footwear aficionado.</section>
+            <section className="productDescription">{description}</section>
 
             </main>
         </React.Fragment>

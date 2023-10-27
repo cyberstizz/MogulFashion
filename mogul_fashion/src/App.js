@@ -48,7 +48,7 @@ const [storeMode, setStoremode] = useState('apparelMode');
         <Route path='/dresses' element={<Dresses />} />
         <Route path='/skirts' element={<Skirts />} />
         <Route path='/sets' element={<Sets />} />
-        <Route path='/products' element={<ProductPage />} />
+        <Route path='/products/:productId' element={<ProductPage />} />
         <Route path='/settingsMenu' element={<SettingsPopup />} />
       </Routes>
       <Footer />
