@@ -3,19 +3,19 @@ const AllProducts = {
             spades : {
                 title: 'Spades',
                 headline: 'Combining athleticism with style',
-                imagePath: './spades.jpeg',
+                imagePath: '/spades.jpeg',
                 description: 'Introducing the "Spades Kick" — a contemporary sneaker artfully designed for the modern enthusiast. Its distinct spade patterns, intricately woven into the shoe\'s fabric, are a nod to classic card designs. The shoe\'s sleek curves, paired with its bold lace and cushioned sole, meld both comfort and style, making it a must-have for any footwear aficionado.'
             }, 
             southOxford : {
                 title: 'South Oxford',
                 headline: 'A harmonious blend of simplicity and innovation',
-                imagePath: './SouthOxford.jpg',
+                imagePath: '/SouthOxford.jpg',
                 description: 'This shoe design features a muted color palette, evoking a sense of timeless elegance. The structured panels seamlessly combine with delicate stitching, showcasing a meticulous attention to detail. The result is a footwear masterpiece that is both understated and sophisticated, perfect for the discerning individual.'
             },
             maz : {
                 title: 'maz',
                 headline: 'the essence of futuristic fashion',
-                imagePath: './maz.jpeg',
+                imagePath: '/maz.jpeg',
                 description: 'Behold \'The Maz\' shoe, a creation by Mac Mogul, exuding modern elegance. With its cool blue undertones and striking contrast of linear designs, this shoe captures the essence of futuristic fashion. Enhanced by cushioned soles and refined laces, it represents a blend of comfort and avant-garde style. An embodiment of art and utility, it\'s a testament to visionary footwear design.'
             },
             jamaaca : {

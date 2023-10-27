@@ -6,7 +6,7 @@ const Footer = () => {
     return(
         <footer className='theFooter'>
 
-<Link to='/' style={{ textDecoration: 'none', color: 'inherit', overflow: 'hidden' }}><img src='./MogulLogo.png' height="auto" alt='the mogo logo' className='footerHomeLogo'></img></Link>
+<Link to='/' style={{ textDecoration: 'none', color: 'inherit', overflow: 'hidden' }}><img src='/MogulLogo.png' height="auto" alt='the mogo logo' className='footerHomeLogo'></img></Link>
 
 
             <nav>
