@@ -75,23 +75,23 @@ const AllProducts = {
         skirts : {
             theQueen : {
                 title: 'The Queen',
-                headline: '',
+                headline: 'An ode to regal allure',
                 imagePath: './theQueen.jpeg',
-                description: ''
+                description: 'Presenting \'The Queen Husband Bretta\', an ode to regal allure crafted exclusively by "ALD" for the D1VA Collection \'05. Dipped in the golden hues of royal tapestries, this ensemble captures the essence of timeless elegance. Its sultry, contoured design accentuates grace, while the sun-kissed golden wash infuses an air of noble sophistication. The structured cuts and detailing, influenced by visionary aesthetics, promise to elevate every silhouette, ensuring that its wearer reigns supreme in the realm of fashion.'
             },
             theRoyalty : {
                 title: 'The Royalty',
-                headline: '',
+                headline: 'Serene azure tones juxtaposed with regal gold patches',
                 imagePath: './theRoyalty.jpeg',
-                description: ''
+                description: 'Introducing \'The Royalty Husband Beetta JemSuit\', a masterful creation by "ALD" exclusively for the D1VA Collection \'05. Bathed in serene azure tones juxtaposed with regal gold patches, this piece is the epitome of royal luxury and sophistication. Its modern cuts and contours come together to enhance the feminine form, while the visionary designs by ALD ensure it stands unparalleled in the world of high fashion. A celebration of classic charm and contemporary elegance, this ensemble promises to turn heads, leaving an indelible mark on every beholder.'
             }
         }, 
         sets : {
             theGarterSet : {
                 title: 'The Garter Set',
-                headline: '',
+                headline: 'A daring fusion of vintage allure and modern panache',
                 imagePath: './theGarterSet.png',
-                description: '' 
+                description: 'Presenting \'The Garter Set\' from mogulufashions.com — a daring fusion of vintage allure and modern panache. This ensemble takes inspiration from classic burlesque styles, reimagined for the contemporary fashionista. The intricately designed bodice highlights the elegance of the upper torso, while the fishnet detailing offers a bold and edgy contrast. Not to be overshadowed, the accompanying ankle boots exude both grace and strength, featuring a unique curve design that pays homage to the natural silhouette of the foot. Together, they create a set that speaks to confidence, allure, and timeless style.' 
             }
         }
     }
