@@ -32,7 +32,7 @@ const ProductPage = () => {
             </div>
             <section className="headlineText">{headline}</section>
             <div className="headerWrapper">
-                <img className="productImage" src={imagePath} alt={`the image of a ${title}`} />
+                <img className="productImage" src={imagePath} alt={`a ${title}`} />
                 <div className="headerFooterImage"></div>
             </div>
 
