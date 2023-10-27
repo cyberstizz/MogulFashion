@@ -55,21 +55,21 @@ const AllProducts = {
         dresses : {
             theHula : {
                 title: 'The Hula',
-                headline: '',
+                headline: 'Embodying the essence of sophistication and femininity',
                 imagePath: './theHula.jpeg',
-                description: ''
+                description: 'Introducing the \'Hula Jumper\', a timeless masterpiece by Mac Mogul. Embodying the essence of sophistication and femininity, this design seamlessly marries classic and contemporary. The soft, subtle textures contrast beautifully with the defined stitching, creating a silhouette that flatters and flows. Its unique buttoned front and tailored waistband offer both style and comfort, making it the perfect ensemble for the modern woman. Step into elegance and make a statement with every move in the \'Huca Jumper\'.'
             },
             theMilitia : {
                 title: 'The Militia',
-                headline: '',
+                headline: 'an iconic ensemble crafted with precision and flair',
                 imagePath: './theMilitia.jpeg',
-                description: ''
+                description: 'Unveiling the \'Militia Husband Bretta Suit\', an iconic ensemble crafted with precision and flair by "ALD", exclusively for the D1VA Collection \'05. This avant-garde design showcases an audacious blend of muted earth tones accentuated with vibrant green pockets, exuding a military-inspired charm. The sharp, sculpted lines of the vest harmonize with the relaxed fit of the shorts, giving it a modern edge. With a visionary influence that shines through, this outfit is not just a statement piece, but a testament to modern fashion\'s daring spirit.'
             },
             theTiff : {
                 title: 'The Tiff',
-                headline: '',
+                headline: 'A radiant masterpiece',
                 imagePath: './theTiff.jpeg',
-                description: ''
+                description: 'Introducing the \'Tiff Husband Bretta\', a radiant masterpiece conceptualized by "ALD" solely for the D1VA Collection \'05. With its ethereal blue tones juxtaposed against a sunlit amber, this ensemble evokes the poetic dance of the sky at dawn. The dreamy texture of the fabric, reminiscent of a watercolor canvas, is perfectly balanced by the bold, sculpted accents in amber, creating a harmonious symphony of color and form. Every stitch and detail embodies visionary artistry, ensuring that the wearer stands out as the epitome of contemporary elegance.'
             }
         },
         skirts : {
