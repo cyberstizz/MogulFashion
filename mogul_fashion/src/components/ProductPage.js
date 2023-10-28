@@ -1,8 +1,9 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import './ProductPage.scss';
 import './Skirts.scss';
 import { useNavigate, useParams } from 'react-router-dom';
 import AllProducts from "./AllProducts";
+import Loader from "./Loader";
 
 
 const ProductPage = () => {
@@ -19,10 +20,24 @@ const ProductPage = () => {
 
     const {title, headline, imagePath, description} = theItem;
 
-    console.log(title)
+    const [imagesLoaded, setImagesLoaded] = useState(false);
+
+    const [loadedImagesCount, setLoadedImagesCount] = useState(0);
+  
+  const handleImageLoaded = () => {
+    setLoadedImagesCount(prevCount => prevCount + 1);
+  };
+  
+  useEffect(() => {
+    if (loadedImagesCount === 1) {
+      setImagesLoaded(true);
+    }
+  }, [loadedImagesCount]);
 
     return(
         <React.Fragment>
+            {!imagesLoaded && <Loader />}
+
             <i onClick={handleBackClick} style={{cursor: 'pointer'}} className="fa fa-arrow-left custom-arrow" aria-hidden="true"></i>
             <section className="underSearchBar"></section>
             <main className="entireProductCard">
@@ -32,7 +47,7 @@ const ProductPage = () => {
             </div>
             <section className="headlineText">{headline}</section>
             <div className="headerWrapper">
-                <img className="productImage" src={imagePath} alt={`a ${title}`} />
+                <img onLoad={handleImageLoaded} className="productImage" src={imagePath} alt={`a ${title}`} />
                 <div className="headerFooterImage"></div>
             </div>
 

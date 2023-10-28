@@ -1,15 +1,32 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import './Pants.scss';
 import { Link } from 'react-router-dom';
 import SubMenuComponent from './SubMenuComponent';
+import Loader from './Loader';
+
 
 
 
 const Pants = () => {
 
+    const [imagesLoaded, setImagesLoaded] = useState(false);
+
+  const [loadedImagesCount, setLoadedImagesCount] = useState(0);
+
+const handleImageLoaded = () => {
+  setLoadedImagesCount(prevCount => prevCount + 1);
+};
+
+useEffect(() => {
+  if (loadedImagesCount === 3) {
+    setImagesLoaded(true);
+  }
+}, [loadedImagesCount]);
+
 
     return(
         <React.Fragment>
+            {!imagesLoaded && <Loader />}
 
             <nav className='subMenuFullBlock'>
                 <ul className='submenuHeader' style={{ textDecoration: 'none', overflow: 'visible'}}>
@@ -20,9 +37,9 @@ const Pants = () => {
             </nav>
             
             <main className='submenuBody'>
-            <Link to="/products/jamaaca"><SubMenuComponent name='Jamaaca' path='./jamaacaJeans.jpeg' /></Link>
-            <Link to="/products/colorVienz"><SubMenuComponent name='ColorVienz' path='./colorVienzJeans.png' /></Link>
-            <Link to="/products/mogulPants"><SubMenuComponent name='MogulPants' path='./mogulPants.jpg' /></Link>
+            <Link to="/products/jamaaca"><SubMenuComponent onImageLoad={handleImageLoaded} name='Jamaaca' path='./jamaacaJeans.jpeg' /></Link>
+            <Link to="/products/colorVienz"><SubMenuComponent onImageLoad={handleImageLoaded} name='ColorVienz' path='./colorVienzJeans.png' /></Link>
+            <Link to="/products/mogulPants"><SubMenuComponent onImageLoad={handleImageLoaded} name='MogulPants' path='./mogulPants.jpg' /></Link>
             </main>
            
         </React.Fragment>
