@@ -2,7 +2,7 @@ import './App.scss';
 import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import Footer from './components/Footer'
-import { Link,  } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { useState, } from 'react';
 import ScrollToTop from './components/ScrollToTop';
 import MainRoutes from './components/MainRoutes';
