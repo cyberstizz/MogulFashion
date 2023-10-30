@@ -3,7 +3,7 @@ $mainRed: #E63C23;
 $complimentaryGray: #D9D9D9;
 
 *{
-    overflow-x: hidden;
+    overflow-x: visible;
     font-family: 'Architects Daughter', cursive;
 }
 
@@ -12,7 +12,7 @@ $complimentaryGray: #D9D9D9;
     width: 100vw;
     position: static;
     background-color: #D0D0D0;
-    overflow: visible;
+    border: solid 2px #D0D0D0;
 }
 .footerHomeLogo{
     width: 30vw;

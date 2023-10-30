@@ -27,7 +27,6 @@ const Footer = () => {
                 </ul>
             </nav>
 
-            <section></section>
 
 
 

@@ -16,7 +16,6 @@ import About from './About';
 function MainRoutes() {
 
   return (
-    <>
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/sneakers' element={<Sneakers />} />
@@ -30,7 +29,6 @@ function MainRoutes() {
         <Route path='/privacyPolicy' element={<PrivacyPolicy />} />
         <Route path='/about' element={<About />} />  
      </Routes>
-    </>
   );
 }
 
