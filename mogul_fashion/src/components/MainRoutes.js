@@ -8,7 +8,6 @@ import Hoodies from './Hoodies';
 import Dresses from './Dresses';
 import Skirts from './Skirts';
 import Sets from './Sets';
-import Loader from './Loader';
 import ProductPage from './ProductPage';
 import SettingsPopup from './SettingsPopup';
 
