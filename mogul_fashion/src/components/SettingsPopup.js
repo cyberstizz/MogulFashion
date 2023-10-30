@@ -7,7 +7,7 @@ const SettingsPopup = () => {
     return(
       <Link to='/'> <nav className="fullSettingsPopupBlock">
         <header></header>
-        <Link to='/' style={{ textDecoration: 'none', color: 'inherit', overflow: 'hidden' }}><img src='./MogulLogo.png' height="auto" alt='the mogo logo' className='thisHomeLogo'></img></Link>
+        <Link to='/'><img style={{ textDecoration: 'none', color: 'inherit', overflow: 'hidden' }} src='/MogulLogo.png' height="auto" alt='the mogo logo' className='thisHomeLogo'></img></Link>
         <ul classname>
         <Link to="/" style={{ textDecoration: 'none'}}><li className="settingsLink">Home</li></Link>
         <Link to="/pants" style={{ textDecoration: 'none'}}><li className="settingsLink">Pants</li></Link>

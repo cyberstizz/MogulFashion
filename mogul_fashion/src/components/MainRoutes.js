@@ -10,6 +10,8 @@ import Skirts from './Skirts';
 import Sets from './Sets';
 import ProductPage from './ProductPage';
 import SettingsPopup from './SettingsPopup';
+import PrivacyPolicy from './PrivacyPolicy';
+import About from './About';
 
 function MainRoutes() {
 
@@ -25,6 +27,8 @@ function MainRoutes() {
         <Route path='/sets' element={<Sets />} />
         <Route path='/products/:productId' element={<ProductPage />} />
         <Route path='/settingsMenu' element={<SettingsPopup />} />
+        <Route path='/privacyPolicy' element={<PrivacyPolicy />} />
+        <Route path='/about' element={<About />} />  
      </Routes>
     </>
   );
