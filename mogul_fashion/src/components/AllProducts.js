@@ -98,27 +98,27 @@ const AllProducts = {
             },
             creamPuff : {
                 title: 'creamPuff',
-                headline: '',
+                headline: 'Rebel Against the Sugarcoated',
                 imagePath: '/creamPuff.png',
-                description: '' 
+                description: 'Life is not a bed of roses, and this "Cream Puff" tee is a testament to that reality. It\'s a battle cry against the saccharine narratives that are often presented, reminding wearers and onlookers alike of the raw, unfiltered nature of existence.Showcasing an enticing image of cream puffs, the design is more than just an ode to a dessert. It\'s a symbolic gesture, a playful yet profound jab at those who choose to see life through rose-tinted glasses. Much like the animal kingdom where survival is a daily battle, life demands vigilance, strength, and resilience. This tee serves as a reminder: While some may choose to indulge in illusions, others recognize the world for what it truly is – a place where only the strong thrive.Features:100% Premium Quality CottonBreathable and Comfortable FitHigh-Resolution Print QualityA Bold Statement PieceIn a world that often chooses to sugarcoat truths, wear your "Cream Puff" tee with pride. It\'s not just a shirt; it\'s a declaration – "You might be soft, but I\'m made of sterner stuff.' 
             },
             facebookFollowers : {
                 title: 'facebook followers',
-                headline: '',
+                headline: 'Dream Big in the Digital Age',
                 imagePath: '/facebookFollowers.png',
-                description: '' 
+                description: 'Welcome to the modern era, where fame, success, and aspirations are measured in followers. The "Facebook Followers 1M+" tee is not just about the digital milestone; it\'s a representation of the universal human longing for recognition, achievement, and the ever-elusive "more."With the shimmering gold text and a shield emblem boldly proclaiming "1M+ Followers," this shirt offers a nod to the iconic aspiration of the digital age. But beneath the surface, it mirrors the age-old dream of "wanting a million dollars." It\'s the 21st-century version of \'Sweet Dreams\', capturing the zeitgeist of our times where everyone dreams big, but only a few reach the pinnacle.Features:100% Ultra-soft CottonContemporary FitDazzling Print QualityA Conversation StarterWearing this tee is more than just flaunting a digital desire. It\'s a statement, an acknowledgment of the ever-evolving benchmarks of success, and the insatiable human drive to aim higher, dream bigger, and chase the unattainable.Whether you\'re on the quest for your first follower or your millionth, let this shirt be a reminder of the limitless potential that lies within, waiting to be unleashed. Because, in this age, dreaming of a million followers is just the beginning' 
             },
             mogulOne : {
                 title: 'Mogul One',
-                headline: '',
+                headline: 'The Quintessence of Fashion Elegance',
                 imagePath: '/mogulShirt.png',
-                description: '' 
+                description: 'Elevate your wardrobe, and step into a realm of sophistication.Introducing our crown jewel, the "Mogul One" t-shirt. It\'s not just a garment; it\'s a testament to the visionary ethos of MogulFashions.com. This meticulously designed tee serves as both a symbol and a proclamation of our unwavering commitment to bringing you fashion that transcends the ordinary—fashion that is truly "Beyond Your Dreams."Features:Luxuriously Soft, 100% Premium CottonRefined Fit for the Modern FashionistaHigh-Definition, Fade-Resistant PrintEmblazoned with our prestigious domain and our daring mission statement, this shirt speaks to the hearts of those who dare to dream bigger, those who seek fashion that challenges, excites, and elevates. Every stitch, every fiber, echoes our passion for curating styles that set you apart from the crowd.Wear it with pride. Wear it with grace. Let it be a reminder of your impeccable taste and your journey with us, exploring the pinnacle of fashion realms yet uncharted.In the world of fashion, dreams are where we begin, but with the "Mogul One," we invite you to dream no more. For you now hold the future of fashion, and it\'s beyond magnificent' 
             },
             mogulTwo : {
                 title: 'Mogul Two',
-                headline: '',
+                headline: 'Where Artistry Meets Unity',
                 imagePath: '/mogulShirtTwo.png',
-                description: '' 
+                description: 'Welcome to the evolution of fashion with the "Mogul Two" t-shirt. It\'s more than just apparel; it\'s a symbol, a beacon for all creative souls globally. This t-shirt is our tribute to every artist, musician, designer, and dreamer who pours their heart into painting the world with their unique shades of brilliance.Features:Premium, Ultra-Soft Fabric for ComfortContemporary Fit for the Modern CreatorVibrant, Lasting Print QualityAt the heart of this design is an emblem that encapsulates the essence of creativity—a singular representation that binds every creator, no matter the medium. Whether you sketch the sunset, craft melodies, or design avant-garde fashion, this emblem acknowledges and celebrates you.Wearing the "Mogul Two" is making a statement: that you are part of a global community of innovators, visionaries, and trailblazers. It\'s an affirmation that creativity knows no bounds, that together we make the world a richer, more vibrant place.In a world teeming with diverse expressions, the "Mogul Two" stands as a testament to unity in creativity. Don it, and join the movement of minds that believe in the transformative power of imagination.' 
             }
 }
 
