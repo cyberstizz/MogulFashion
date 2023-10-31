@@ -8,7 +8,7 @@ import Loader from "./Loader";
 
 const Shirts = () => {
 
-    const [imagesLoaded, setImagesLoaded] = useState(false);
+  const [imagesLoaded, setImagesLoaded] = useState(false);
 
   const [loadedImagesCount, setLoadedImagesCount] = useState(0);
 
@@ -17,6 +17,8 @@ const handleImageLoaded = () => {
 };
 
 useEffect(() => {
+    // in this case I will set images loaded as true after all
+    //seven images are loaded
   if (loadedImagesCount === 7) {
     setImagesLoaded(true);
   }
