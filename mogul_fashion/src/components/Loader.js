@@ -4,7 +4,7 @@ import './Loader.scss'
 const Loader = () => {
     return (
         <div className="loader">
-            <img src="/firstGif.gif" alt="Loading..." />
+            <img className="actualLoader" src="/firstGif.gif" alt="Loading..." />
         </div>
     );
 }

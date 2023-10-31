@@ -77,6 +77,48 @@ const AllProducts = {
                 headline: 'A daring fusion of vintage allure and modern panache',
                 imagePath: '/theGarterSet.png',
                 description: 'Presenting \'The Garter Set\' from mogulufashions.com — a daring fusion of vintage allure and modern panache. This ensemble takes inspiration from classic burlesque styles, reimagined for the contemporary fashionista. The intricately designed bodice highlights the elegance of the upper torso, while the fishnet detailing offers a bold and edgy contrast. Not to be overshadowed, the accompanying ankle boots exude both grace and strength, featuring a unique curve design that pays homage to the natural silhouette of the foot. Together, they create a set that speaks to confidence, allure, and timeless style.' 
+            },
+            Gangsta : {
+                title: 'Gangsta',
+                headline: 'Stand Resolute. Stand True.',
+                imagePath: '/Gangsta.png',
+                description: 'Embrace the ethos of unyielding integrity with our "Gangsta: Cradle to the Grave" tee. A powerful testament to unwavering fidelity to one\'s ideals, this shirt is more than just a fashion statement—it\'s a declaration of commitment, from the beginning to the very end. Crafted with precision, the design features bold, fiery lettering set against a backdrop of silhouetted hands reaching upwards, symbolizing the undying pursuit of one\'s beliefs and the strength to uphold them. The sunset hues not only captivate the eye but also represent the journey from the dawn of one\'s convictions to the twilight of one\'s life.Whether you\'re out on the town or simply looking to make a statement, this tee ensures you wear your principles on your sleeve—quite literally. Its soft, breathable fabric ensures comfort, while its striking design guarantees a lasting impression.Features:  100% Premium CottonBreathable and LightweightHigh-quality print that doesn\'t fadeModern fit, suitable for all body typesDurable and designed for regular wearCelebrate your unwavering integrity and let the world know that you stand true to your ideals, from the cradle to the grave.' 
+            },
+            Here : {
+                title: 'Here',
+                headline: 'Embrace Your Unique Presence',
+                imagePath: '/Here.png',
+                description: 'In a world where genuine presence and transparency have become rarities, wearing our "Here" tee is not just a bold statement, but a beacon of authenticity. This shirt represents not only the power of being present but also the courage to remain transparent and firm in a world that often rewards conformity.The vivid purple alien at the center of the design embodies the sentiment of feeling like an outsider, of not belonging. Yet, it\'s this very uniqueness, this \'otherness,\' that makes one stand out, be remembered, and truly seen. The bold, contrasting texts, "We\'re Here!\", declare a sense of unity, a message to all who feel they don\'t fit the mold, reminding them they\'re not alone.Features:100% Soft, Premium CottonBreathable and Comfortable FitResilient Print QualityModern Design, suitable for all stylesCrafted for those who dare to be differentIn a world where blending in is the norm, dare to be different, dare to be transparent. Wear your authenticity with pride and let the world know, "We\'re Here!"' 
+            },
+            better : {
+                title: 'better',
+                headline: 'A daring fusion of vintage allure and modern panache',
+                imagePath: '/better.png',
+                description: 'Presenting \'The Garter Set\' from mogulufashions.com — a daring fusion of vintage allure and modern panache. This ensemble takes inspiration from classic burlesque styles, reimagined for the contemporary fashionista. The intricately designed bodice highlights the elegance of the upper torso, while the fishnet detailing offers a bold and edgy contrast. Not to be overshadowed, the accompanying ankle boots exude both grace and strength, featuring a unique curve design that pays homage to the natural silhouette of the foot. Together, they create a set that speaks to confidence, allure, and timeless style.' 
+            },
+            creamPuff : {
+                title: 'creamPuff',
+                headline: 'A daring fusion of vintage allure and modern panache',
+                imagePath: '/creamPuff.png',
+                description: 'Presenting \'The Garter Set\' from mogulufashions.com — a daring fusion of vintage allure and modern panache. This ensemble takes inspiration from classic burlesque styles, reimagined for the contemporary fashionista. The intricately designed bodice highlights the elegance of the upper torso, while the fishnet detailing offers a bold and edgy contrast. Not to be overshadowed, the accompanying ankle boots exude both grace and strength, featuring a unique curve design that pays homage to the natural silhouette of the foot. Together, they create a set that speaks to confidence, allure, and timeless style.' 
+            },
+            facebookFollowers : {
+                title: 'facebook followers',
+                headline: 'A daring fusion of vintage allure and modern panache',
+                imagePath: '/facebookFollowers.png',
+                description: 'Presenting \'The Garter Set\' from mogulufashions.com — a daring fusion of vintage allure and modern panache. This ensemble takes inspiration from classic burlesque styles, reimagined for the contemporary fashionista. The intricately designed bodice highlights the elegance of the upper torso, while the fishnet detailing offers a bold and edgy contrast. Not to be overshadowed, the accompanying ankle boots exude both grace and strength, featuring a unique curve design that pays homage to the natural silhouette of the foot. Together, they create a set that speaks to confidence, allure, and timeless style.' 
+            },
+            mogulOne : {
+                title: 'Mogul One',
+                headline: 'A daring fusion of vintage allure and modern panache',
+                imagePath: '/mogulShirt.png',
+                description: 'Presenting \'The Garter Set\' from mogulufashions.com — a daring fusion of vintage allure and modern panache. This ensemble takes inspiration from classic burlesque styles, reimagined for the contemporary fashionista. The intricately designed bodice highlights the elegance of the upper torso, while the fishnet detailing offers a bold and edgy contrast. Not to be overshadowed, the accompanying ankle boots exude both grace and strength, featuring a unique curve design that pays homage to the natural silhouette of the foot. Together, they create a set that speaks to confidence, allure, and timeless style.' 
+            },
+            mogulTwo : {
+                title: 'Mogul Two',
+                headline: 'A daring fusion of vintage allure and modern panache',
+                imagePath: '/mogulShirtTwo.png',
+                description: 'Presenting \'The Garter Set\' from mogulufashions.com — a daring fusion of vintage allure and modern panache. This ensemble takes inspiration from classic burlesque styles, reimagined for the contemporary fashionista. The intricately designed bodice highlights the elegance of the upper torso, while the fishnet detailing offers a bold and edgy contrast. Not to be overshadowed, the accompanying ankle boots exude both grace and strength, featuring a unique curve design that pays homage to the natural silhouette of the foot. Together, they create a set that speaks to confidence, allure, and timeless style.' 
             }
 }
 

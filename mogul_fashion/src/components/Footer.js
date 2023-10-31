@@ -12,8 +12,8 @@ const Footer = () => {
             <nav>
                 <ul>
                 <Link to="/" style={{ textDecoration: 'none'}}><li className='footerList'>Home</li></Link>
-                <Link to="/apparel" style={{ textDecoration: 'none'}}><li className='footerList'>Apparel</li></Link>
-                <Link to="/other" style={{ textDecoration: 'none'}}><li className='footerList'>Other</li></Link>
+                <Link to="/" style={{ textDecoration: 'none'}}><li className='footerList'>Apparel</li></Link>
+                <Link to="/shirts" style={{ textDecoration: 'none'}}><li className='footerList'>Other</li></Link>
                 <Link to="/shirts" style={{ textDecoration: 'none'}}><li className='footerList'>Shirts</li></Link>
                 <Link to="/sneakers" style={{ textDecoration: 'none'}}><li className='footerList'>Sneakers</li></Link>
                 <Link to="/pants" style={{ textDecoration: 'none'}}><li className='footerList'>Pants</li></Link>

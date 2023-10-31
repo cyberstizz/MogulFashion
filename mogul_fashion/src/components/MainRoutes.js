@@ -7,6 +7,7 @@ import Pants from './Pants';
 import Hoodies from './Hoodies';
 import Dresses from './Dresses';
 import Skirts from './Skirts';
+import Shirts from './Shirts';
 import Sets from './Sets';
 import ProductPage from './ProductPage';
 import SettingsPopup from './SettingsPopup';
@@ -24,6 +25,7 @@ function MainRoutes() {
         <Route path='/dresses' element={<Dresses />} />
         <Route path='/skirts' element={<Skirts />} />
         <Route path='/sets' element={<Sets />} />
+        <Route path='/shirts' element={<Shirts />} />
         <Route path='/products/:productId' element={<ProductPage />} />
         <Route path='/settingsMenu' element={<SettingsPopup />} />
         <Route path='/privacyPolicy' element={<PrivacyPolicy />} />
