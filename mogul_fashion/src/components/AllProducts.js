@@ -92,33 +92,33 @@ const AllProducts = {
             },
             better : {
                 title: 'better',
-                headline: 'A daring fusion of vintage allure and modern panache',
+                headline: 'Embrace the Balance of Risk and Security',
                 imagePath: '/better.png',
-                description: 'Presenting \'The Garter Set\' from mogulufashions.com — a daring fusion of vintage allure and modern panache. This ensemble takes inspiration from classic burlesque styles, reimagined for the contemporary fashionista. The intricately designed bodice highlights the elegance of the upper torso, while the fishnet detailing offers a bold and edgy contrast. Not to be overshadowed, the accompanying ankle boots exude both grace and strength, featuring a unique curve design that pays homage to the natural silhouette of the foot. Together, they create a set that speaks to confidence, allure, and timeless style.' 
+                description: 'Life is all about finding that delicate balance between taking chances and ensuring security. Our "Better" tee captures this essence perfectly, weaving together the excitement of rolling the dice with the comfort of having all four walls intact.\'Prominently featuring a series of dice, this design is a nod to the unpredictable nature of life, the ups and downs, and the choices we\'re faced with daily. Each roll signifies a decision, a leap of faith, or a calculated risk. The vibrant "4" in the center stands as a bold reminder that while we take these chances, we always ensure that our four corners, our foundations, remain unshaken.Features:100% Premium Quality CottonSoft, Comfortable, and BreathableStriking Print QualityModern, Statement DesignCrafted for the risk-takers who never compromise on security In a game of chances, let the world know you play with both heart and strategy. With the "Better" tee, wear your mantra: Take chances, but always have your four walls covered.' 
             },
             creamPuff : {
                 title: 'creamPuff',
-                headline: 'A daring fusion of vintage allure and modern panache',
+                headline: '',
                 imagePath: '/creamPuff.png',
-                description: 'Presenting \'The Garter Set\' from mogulufashions.com — a daring fusion of vintage allure and modern panache. This ensemble takes inspiration from classic burlesque styles, reimagined for the contemporary fashionista. The intricately designed bodice highlights the elegance of the upper torso, while the fishnet detailing offers a bold and edgy contrast. Not to be overshadowed, the accompanying ankle boots exude both grace and strength, featuring a unique curve design that pays homage to the natural silhouette of the foot. Together, they create a set that speaks to confidence, allure, and timeless style.' 
+                description: '' 
             },
             facebookFollowers : {
                 title: 'facebook followers',
-                headline: 'A daring fusion of vintage allure and modern panache',
+                headline: '',
                 imagePath: '/facebookFollowers.png',
-                description: 'Presenting \'The Garter Set\' from mogulufashions.com — a daring fusion of vintage allure and modern panache. This ensemble takes inspiration from classic burlesque styles, reimagined for the contemporary fashionista. The intricately designed bodice highlights the elegance of the upper torso, while the fishnet detailing offers a bold and edgy contrast. Not to be overshadowed, the accompanying ankle boots exude both grace and strength, featuring a unique curve design that pays homage to the natural silhouette of the foot. Together, they create a set that speaks to confidence, allure, and timeless style.' 
+                description: '' 
             },
             mogulOne : {
                 title: 'Mogul One',
-                headline: 'A daring fusion of vintage allure and modern panache',
+                headline: '',
                 imagePath: '/mogulShirt.png',
-                description: 'Presenting \'The Garter Set\' from mogulufashions.com — a daring fusion of vintage allure and modern panache. This ensemble takes inspiration from classic burlesque styles, reimagined for the contemporary fashionista. The intricately designed bodice highlights the elegance of the upper torso, while the fishnet detailing offers a bold and edgy contrast. Not to be overshadowed, the accompanying ankle boots exude both grace and strength, featuring a unique curve design that pays homage to the natural silhouette of the foot. Together, they create a set that speaks to confidence, allure, and timeless style.' 
+                description: '' 
             },
             mogulTwo : {
                 title: 'Mogul Two',
-                headline: 'A daring fusion of vintage allure and modern panache',
+                headline: '',
                 imagePath: '/mogulShirtTwo.png',
-                description: 'Presenting \'The Garter Set\' from mogulufashions.com — a daring fusion of vintage allure and modern panache. This ensemble takes inspiration from classic burlesque styles, reimagined for the contemporary fashionista. The intricately designed bodice highlights the elegance of the upper torso, while the fishnet detailing offers a bold and edgy contrast. Not to be overshadowed, the accompanying ankle boots exude both grace and strength, featuring a unique curve design that pays homage to the natural silhouette of the foot. Together, they create a set that speaks to confidence, allure, and timeless style.' 
+                description: '' 
             }
 }
 
